@@ -1,17 +1,17 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Nanum+Brush+Script&family=Nothing+You+Could+Do&display=swap");
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --font-primary: 'Londrina+Solid', sans-serif;
+  --font-secondary: 'Nanum+Brush+Script', serif;
+  --font-code: 'Nothing+You+Could+Do', monospace;
+  --bg-color: #a0946c;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #95cc8d;
+  --accent-color: #3a3636;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -50,7 +50,7 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 2rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
@@ -78,14 +78,14 @@ header .container {
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 2rem;
   margin-left: 2rem;
   border-color: transparent;
 }
 
 .hero-btn {
-  border-radius: 4px;
-  font-size: 1.2rem;
+  border-radius: 100px;
+  font-size: 1.5rem;
   padding: 1.5rem 3rem;
 }
 
@@ -109,7 +109,7 @@ section {
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 80px;
   height: auto;
 }
 .countdown .clock-item .count-number {
@@ -147,7 +147,7 @@ section {
 }
 
 .countdown p {
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
@@ -155,7 +155,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
+    gap: 2rem;
   }
   .wallet-btn {
     margin-left: 0;
